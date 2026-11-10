@@ -11,6 +11,33 @@ entry-level jobs and internships, a shareable one-page portfolio, and a
 The full problem statement — with verified numbers — is in
 [`PROBLEM.md`](./PROBLEM.md).
 
+## Proven impact (pilot run, 10 Nov 2026)
+
+We ran RozgarAI against **50 real Indian beginner GitHub profiles**
+(location:India, ≤20 followers, 1–15 repos, created after 2023 — the exact
+audience Track #10 serves). Every profile was run through the same code
+that ships in the app:
+
+- **Average score: 37.6/100** (median 38, range 15–72) — **58% score
+  Beginner**, 40% Growing, 2% Job-Ready.
+- **26% already have a usable job match (≥50%)** — one in four beginners
+  already matches an entry-level role on skills their GitHub proves,
+  before any upskilling.
+- **100% got a 4-week skill-gap plan** — every profile leaves with a
+  concrete plan.
+- The most common gap is also the cheapest fix: **100% of the 50 profiles
+  had no push in the last 90 days** — one push a week makes the profile
+  look alive to recruiters.
+
+Full report: [`IMPACT.md`](./IMPACT.md) · raw data:
+[`impact-results.json`](./impact-results.json).
+
+## Demo
+
+- **Video (2 min):** [`demo/rozgarai-demo.mp4`](./demo/rozgarai-demo.mp4)
+- **Live demo:** [DEPLOY_URL] _(placeholder — live URL once deployed on
+  Vercel)_
+
 ## The four agents
 
 | Agent | Status | What it does |
@@ -88,4 +115,4 @@ GitHub REST API · Vercel.
 
 ## License
 
-MIT — see `LICENSE` (to be added before submission).
+MIT — see `LICENSE`.
