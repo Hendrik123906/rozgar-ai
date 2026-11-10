@@ -121,12 +121,18 @@ What this proves:
 
 ## How it was built
 
-Developed with AgentFoundry (IDE v0.1.80 installed and verified on Linux)
-using the standard Next.js 16 toolchain; the repo is opened in the
-AgentFoundry IDE before submission. Deployed to Vercel (free tier) from
-AgentFoundry. The Analyzer uses the public GitHub REST API without
+Built with the standard Next.js 16 toolchain (Next.js 16.4.6, React 19,
+TypeScript, Tailwind CSS 4). AgentFoundry IDE v0.1.80 is installed and
+verified running on Linux; the repo is opened in the AgentFoundry IDE
+before submission (registration pending — see checklist). Deploy target is
+Vercel (free tier). The Analyzer uses the public GitHub REST API without
 authentication (60 requests/hour, 2 requests per analysis); a
 `GITHUB_TOKEN` env var raises the limit.
+
+Verified 10 Nov 2026: production build passes clean (TypeScript clean, 8
+static pages, 4 API routes); live smoke test of the production build —
+home page 200, `/api/analyze?username=octocat` 200 (score 61/100, Growing),
+`/api/match` 200 (5 job matches), `/api/skillgap` 200.
 
 ## Team
 
@@ -146,8 +152,9 @@ authentication (60 requests/hour, 2 requests per analysis); a
       1M free Smart-Code tokens) and **open this repo in the AgentFoundry
       IDE** — the hackathon rules require building in AgentFoundry.
 - [ ] **Create a free Vercel account** and deploy the repo for the
-      permanent live demo (or claim a temporary deployment), then replace
-      `[DEPLOY_URL]` above with the live URL.
+      permanent live demo, then replace `[DEPLOY_URL]` above with the
+      live URL. (The temporary Vercel deployment from 10 Nov morning
+      expired unclaimed ~10:39 WIB — a fresh deploy is required.)
 - [ ] **Create a public GitHub repo** and push this code
       (`git push`), then replace `[REPO_URL]` above with the repo URL.
 - [ ] **Upload `demo/rozgarai-demo.mp4` to YouTube (unlisted)** and
