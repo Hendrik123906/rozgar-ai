@@ -16,8 +16,8 @@ The full problem statement — with verified numbers — is in
 | Agent | Status | What it does |
 | --- | --- | --- |
 | **GitHub Analyzer** | ✅ Live (Day 1) | Scores a GitHub profile 0–100 across profile completeness, activity, project quality, and language breadth — with strengths and gaps |
-| **Job Matcher** | 🚧 Day 3 | Matches the profile against entry-level jobs/internships with a match score and a reason per match |
-| **Portfolio Builder** | 🚧 Day 3 | Generates a one-page portfolio site from the GitHub data |
+| **Job Matcher** | ✅ Live (Day 2) | Matches the profile against 25 entry-level jobs/internships with a 0–100 match score, matched/related/missing skills, and a reason per match |
+| **Portfolio Builder** | ✅ Live (Day 2) | Generates a self-contained one-page HTML portfolio from the GitHub data, downloadable from the UI or via API |
 | **Skill-Gap Plan** | 🚧 Day 3 | Builds a 4-week learning plan from the gap to the matched jobs |
 
 ## How the score works
@@ -47,6 +47,20 @@ npm start        # serve the production build
 No API keys needed. The Analyzer uses the public GitHub REST API without
 authentication (60 requests/hour, 2 requests per analysis). Set a
 `GITHUB_TOKEN` env var to raise the limit.
+
+## API
+
+| Endpoint | What it returns |
+| --- | --- |
+| `GET /api/analyze?username=<name>` | Profile analysis (score, strengths, gaps, languages, top repos) |
+| `GET /api/match?username=<name>` | Analysis + top 5 job matches with scores and reasons |
+| `GET /api/portfolio?username=<name>` | One-page portfolio as a downloadable `.html` file |
+
+The Matcher is deterministic: exact language matches count full, JS/TS
+ecosystem skills (React, Node.js, Next.js, Tailwind) and C↔C++ count half,
+everything else needs an exact match. The Portfolio Builder runs in the
+browser too — the UI download reuses the analysis already on screen, so it
+costs no extra GitHub API calls.
 
 ## Deploy
 

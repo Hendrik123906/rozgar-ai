@@ -1,7 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import type { Analysis } from "@/lib/analyzer";
+import { JOBS, matchJobs } from "@/lib/matcher";
+import { buildPortfolioHtml, portfolioFileName } from "@/lib/portfolio";
 
 type State =
   | { kind: "idle" }
@@ -46,6 +48,23 @@ export default function Home() {
   }
 
   const a = state.kind === "done" ? state.analysis : null;
+  const matches = useMemo(
+    () => (a ? matchJobs(a, JOBS, 5) : []),
+    [a],
+  );
+
+  function downloadPortfolio() {
+    if (!a) return;
+    const blob = new Blob([buildPortfolioHtml(a)], { type: "text/html" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = portfolioFileName(a.username);
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+  }
 
   return (
     <main className="min-h-screen bg-zinc-50 text-zinc-900">
@@ -249,6 +268,92 @@ export default function Home() {
               </div>
             )}
 
+            {matches.length > 0 && (
+              <div className="rounded-xl border border-zinc-200 bg-white p-5">
+                <h2 className="font-bold">Job matches — entry-level India tech</h2>
+                <p className="mt-1 text-sm text-zinc-500">
+                  Matched against {JOBS.length} real entry-level roles. Scores
+                  show how much of each role&apos;s required skills your GitHub
+                  already proves.
+                </p>
+                <ul className="mt-4 space-y-4">
+                  {matches.map((m) => (
+                    <li
+                      key={m.job.id}
+                      className="rounded-lg border border-zinc-100 bg-zinc-50 p-4"
+                    >
+                      <div className="flex flex-wrap items-baseline justify-between gap-2">
+                        <div>
+                          <span className="font-semibold">{m.job.role}</span>
+                          <span className="text-zinc-500"> · {m.job.company}</span>
+                        </div>
+                        <span className="text-sm font-bold text-emerald-700">
+                          {m.score}% match
+                        </span>
+                      </div>
+                      <p className="mt-0.5 text-xs text-zinc-500">
+                        {m.job.location} · {m.job.type} · {m.job.salary} ·{" "}
+                        {m.job.experience}
+                      </p>
+                      <div className="mt-2 h-2 overflow-hidden rounded-full bg-zinc-200">
+                        <div
+                          className="h-full rounded-full bg-emerald-500"
+                          style={{ width: `${m.score}%` }}
+                        />
+                      </div>
+                      <p className="mt-2 text-sm text-zinc-600">{m.reason}</p>
+                      <div className="mt-2 flex flex-wrap gap-1.5 text-xs">
+                        {m.matched.map((s) => (
+                          <span
+                            key={s}
+                            className="rounded-full bg-emerald-100 px-2 py-0.5 font-medium text-emerald-800"
+                          >
+                            ✓ {s}
+                          </span>
+                        ))}
+                        {m.related.map((s) => (
+                          <span
+                            key={s}
+                            className="rounded-full bg-sky-100 px-2 py-0.5 font-medium text-sky-800"
+                          >
+                            ~ {s} (related)
+                          </span>
+                        ))}
+                        {m.missing.map((s) => (
+                          <span
+                            key={s}
+                            className="rounded-full bg-zinc-200 px-2 py-0.5 text-zinc-600"
+                          >
+                            ✕ {s}
+                          </span>
+                        ))}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {a && (
+              <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-5 text-center">
+                <h2 className="font-bold text-emerald-900">
+                  Your one-page portfolio is ready
+                </h2>
+                <p className="mt-1 text-sm text-emerald-800">
+                  A self-contained HTML page built from your GitHub profile —
+                  score, strengths, languages, and top repos. Host it free
+                  anywhere, or attach it to applications.
+                </p>
+                <button
+                  type="button"
+                  onClick={downloadPortfolio}
+                  className="mt-3 rounded-lg bg-emerald-600 px-5 py-2.5 font-semibold text-white hover:bg-emerald-700"
+                >
+                  Download portfolio (.html)
+                </button>
+              </div>
+            )}
+
             {state.kind === "done" && state.rateRemaining !== null && (
               <p className="text-center text-xs text-zinc-400">
                 GitHub API requests remaining this hour: {state.rateRemaining} ·
@@ -260,8 +365,8 @@ export default function Home() {
 
         <footer className="mt-12 text-center text-xs text-zinc-400">
           RozgarAI — an AI agent for first tech jobs in India. Built for Code
-          for a Billion, Track #10. Job matching, portfolio builder &amp;
-          skill-gap plan landing next.
+          for a Billion, Track #10. GitHub Analyzer, Job Matcher &amp;
+          Portfolio Builder live — skill-gap plan landing next.
         </footer>
       </div>
     </main>
