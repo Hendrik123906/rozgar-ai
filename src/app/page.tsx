@@ -3,7 +3,15 @@
 import { useMemo, useState } from "react";
 import type { Analysis } from "@/lib/analyzer";
 import { JOBS, matchJobs } from "@/lib/matcher";
+import { buildSkillGapPlan, type SkillGapPlan } from "@/lib/skillgap";
 import { buildPortfolioHtml, portfolioFileName } from "@/lib/portfolio";
+
+const TYPE_STYLE: Record<SkillGapPlan["weeks"][number]["tasks"][number]["type"], string> = {
+  learn: "bg-sky-100 text-sky-800",
+  build: "bg-emerald-100 text-emerald-800",
+  profile: "bg-amber-100 text-amber-800",
+  apply: "bg-violet-100 text-violet-800",
+};
 
 type State =
   | { kind: "idle" }
@@ -51,6 +59,10 @@ export default function Home() {
   const matches = useMemo(
     () => (a ? matchJobs(a, JOBS, 5) : []),
     [a],
+  );
+  const plan = useMemo(
+    () => (a && matches.length > 0 ? buildSkillGapPlan(a, matches) : null),
+    [a, matches],
   );
 
   function downloadPortfolio() {
@@ -334,6 +346,94 @@ export default function Home() {
               </div>
             )}
 
+            {plan && (
+              <div className="rounded-xl border border-zinc-200 bg-white p-5">
+                <h2 className="font-bold">Your 4-week skill-gap plan</h2>
+                <p className="mt-1 text-sm text-zinc-500">{plan.summary}</p>
+                {plan.focusSkills.length > 0 && (
+                  <div className="mt-3 flex flex-wrap gap-1.5 text-xs">
+                    <span className="font-medium text-zinc-600">Focus:</span>
+                    {plan.focusSkills.map((s) => (
+                      <span
+                        key={s}
+                        className="rounded-full bg-rose-100 px-2 py-0.5 font-medium text-rose-800"
+                      >
+                        {s}
+                      </span>
+                    ))}
+                    {plan.alreadyHave.length > 0 && (
+                      <>
+                        <span className="ml-2 font-medium text-zinc-600">
+                          Already have:
+                        </span>
+                        {plan.alreadyHave.map((s) => (
+                          <span
+                            key={s}
+                            className="rounded-full bg-emerald-100 px-2 py-0.5 font-medium text-emerald-800"
+                          >
+                            {s}
+                          </span>
+                        ))}
+                      </>
+                    )}
+                  </div>
+                )}
+                <div className="mt-4 space-y-4">
+                  {plan.weeks.map((w) => (
+                    <div
+                      key={w.week}
+                      className="rounded-lg border border-zinc-100 bg-zinc-50 p-4"
+                    >
+                      <div className="flex flex-wrap items-baseline gap-2">
+                        <span className="rounded-full bg-emerald-600 px-2.5 py-0.5 text-xs font-bold text-white">
+                          Week {w.week}
+                        </span>
+                        <span className="font-semibold">{w.title}</span>
+                      </div>
+                      <p className="mt-1 text-sm text-zinc-600">{w.goal}</p>
+                      <ul className="mt-2 space-y-2">
+                        {w.tasks.map((t, i) => (
+                          <li key={i} className="text-sm text-zinc-700">
+                            <span
+                              className={`mr-1.5 inline-block rounded-full px-2 py-0.5 text-xs font-semibold ${TYPE_STYLE[t.type]}`}
+                            >
+                              {t.type}
+                            </span>
+                            {t.text}
+                            {t.resources && t.resources.length > 0 && (
+                              <span className="text-zinc-500">
+                                {" "}
+                                — free:{" "}
+                                {t.resources.map((res, j) => (
+                                  <span key={res.url}>
+                                    {j > 0 && " · "}
+                                    <a
+                                      href={res.url}
+                                      target="_blank"
+                                      rel="noreferrer"
+                                      className="text-emerald-700 hover:underline"
+                                    >
+                                      {res.title}
+                                    </a>
+                                  </span>
+                                ))}
+                              </span>
+                            )}
+                          </li>
+                        ))}
+                      </ul>
+                      <p className="mt-2 text-sm text-zinc-600">
+                        <span className="font-semibold text-zinc-800">
+                          Milestone:{" "}
+                        </span>
+                        {w.milestone}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
             {a && (
               <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-5 text-center">
                 <h2 className="font-bold text-emerald-900">
@@ -365,8 +465,8 @@ export default function Home() {
 
         <footer className="mt-12 text-center text-xs text-zinc-400">
           RozgarAI — an AI agent for first tech jobs in India. Built for Code
-          for a Billion, Track #10. GitHub Analyzer, Job Matcher &amp;
-          Portfolio Builder live — skill-gap plan landing next.
+          for a Billion, Track #10. GitHub Analyzer, Job Matcher, Portfolio
+          Builder &amp; Skill-Gap Plan all live.
         </footer>
       </div>
     </main>

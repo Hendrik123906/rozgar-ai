@@ -18,7 +18,7 @@ The full problem statement — with verified numbers — is in
 | **GitHub Analyzer** | ✅ Live (Day 1) | Scores a GitHub profile 0–100 across profile completeness, activity, project quality, and language breadth — with strengths and gaps |
 | **Job Matcher** | ✅ Live (Day 2) | Matches the profile against 25 entry-level jobs/internships with a 0–100 match score, matched/related/missing skills, and a reason per match |
 | **Portfolio Builder** | ✅ Live (Day 2) | Generates a self-contained one-page HTML portfolio from the GitHub data, downloadable from the UI or via API |
-| **Skill-Gap Plan** | 🚧 Day 3 | Builds a 4-week learning plan from the gap to the matched jobs |
+| **Skill-Gap Plan** | ✅ Live (Day 3) | Builds a 4-week learning plan from the gap to the matched jobs — free resources, weekly milestones |
 
 ## How the score works
 
