@@ -153,8 +153,11 @@ home page 200, `/api/analyze?username=octocat` 200 (score 61/100, Growing),
       IDE** — the hackathon rules require building in AgentFoundry.
 - [ ] **Create a free Vercel account** and deploy the repo for the
       permanent live demo, then replace `[DEPLOY_URL]` above with the
-      live URL. (The temporary Vercel deployment from 10 Nov morning
-      expired unclaimed ~10:39 WIB — a fresh deploy is required.)
+      live URL. (Note: the temporary deployment's claim link expired
+      10:29 WIB 10 Nov — but the user's Vercel sign-in at 09:33 WIB that
+      morning may have claimed it in time; if the deployment is already
+      live under the user's Vercel account, use that URL instead of a
+      fresh deploy.)
 - [ ] **Create a public GitHub repo** and push this code
       (`git push`), then replace `[REPO_URL]` above with the repo URL.
 - [ ] **Upload `demo/rozgarai-demo.mp4` to YouTube (unlisted)** and

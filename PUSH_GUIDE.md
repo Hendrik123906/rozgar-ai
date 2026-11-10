@@ -49,8 +49,10 @@ Notes:
 
 ## What stays blocked after the push
 
-- `[DEPLOY_URL]` — needs a free Vercel account + deploy of this repo
-  (the temporary deployment from 10 Nov morning expired unclaimed).
+- `[DEPLOY_URL]` — needs a free Vercel account + deploy of this repo,
+  unless the user's 09:33 WIB Vercel sign-in on 10 Nov already claimed
+  the temporary deployment (claim link expired 10:29 WIB; status
+  unconfirmed — check the user's Vercel dashboard first).
 - `[DEMO_VIDEO_URL]` — needs `demo/rozgarai-demo.mp4` uploaded to YouTube
   (unlisted).
 - AgentFoundry.me registration + opening this repo in the AgentFoundry IDE
