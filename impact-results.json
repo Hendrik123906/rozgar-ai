@@ -1,0 +1,1720 @@
+[
+  {
+    "username": "AkritSingha2023",
+    "name": "Akrit Singha",
+    "location": "Delhi, India",
+    "followers": 0,
+    "publicRepos": 1,
+    "accountAgeDays": 1101,
+    "score": 38,
+    "band": "Beginner",
+    "components": {
+      "profile": 13,
+      "activity": 6,
+      "quality": 8,
+      "languages": 11
+    },
+    "topLanguage": "HTML",
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Associate Software Engineer Trainee",
+      "company": "Tech Mahindra",
+      "score": 25
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "CSS",
+      "Java",
+      "SQL",
+      "Python"
+    ],
+    "planTarget": "Associate Software Engineer Trainee at Tech Mahindra"
+  },
+  {
+    "username": "arghyaInnovator",
+    "name": "Arghya patra",
+    "location": "Kolkata,India",
+    "followers": 0,
+    "publicRepos": 12,
+    "accountAgeDays": 1096,
+    "score": 62,
+    "band": "Growing",
+    "components": {
+      "profile": 13,
+      "activity": 15,
+      "quality": 9,
+      "languages": 25
+    },
+    "topLanguage": "HTML",
+    "gaps": [
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "9 repos have no description — add one line explaining what each project does",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Frontend Developer Intern",
+      "company": "Zomato",
+      "score": 70
+    },
+    "usableMatch": true,
+    "planFocus": [
+      "TypeScript",
+      "Git"
+    ],
+    "planTarget": "Frontend Developer Intern at Zomato"
+  },
+  {
+    "username": "Abhijeet1870",
+    "name": "Abhijeet Gautam",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 2,
+    "accountAgeDays": 1096,
+    "score": 31,
+    "band": "Beginner",
+    "components": {
+      "profile": 13,
+      "activity": 7,
+      "quality": 11,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 2 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "subhraneelsaha",
+    "name": "Subhraneel Saha",
+    "location": "India, Kolkata",
+    "followers": 0,
+    "publicRepos": 3,
+    "accountAgeDays": 1096,
+    "score": 52,
+    "band": "Growing",
+    "components": {
+      "profile": 13,
+      "activity": 8,
+      "quality": 8,
+      "languages": 23
+    },
+    "topLanguage": "PHP",
+    "gaps": [
+      "Only 3 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "1 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "mbahmad97",
+    "name": "MD Belal Ahmad",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 1,
+    "accountAgeDays": 1063,
+    "score": 27,
+    "band": "Beginner",
+    "components": {
+      "profile": 13,
+      "activity": 6,
+      "quality": 8,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "praveenmantapam",
+    "name": "Praveen M",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 1,
+    "accountAgeDays": 1052,
+    "score": 32,
+    "band": "Beginner",
+    "components": {
+      "profile": 7,
+      "activity": 6,
+      "quality": 0,
+      "languages": 19
+    },
+    "topLanguage": "TypeScript",
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "1 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Frontend Engineer (Entry Level)",
+      "company": "CRED",
+      "score": 63
+    },
+    "usableMatch": true,
+    "planFocus": [
+      "JavaScript"
+    ],
+    "planTarget": "Frontend Engineer (Entry Level) at CRED"
+  },
+  {
+    "username": "webdev-adi-official",
+    "name": "Webdev_adi",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 3,
+    "accountAgeDays": 1052,
+    "score": 56,
+    "band": "Growing",
+    "components": {
+      "profile": 13,
+      "activity": 8,
+      "quality": 12,
+      "languages": 23
+    },
+    "topLanguage": "JavaScript",
+    "gaps": [
+      "Only 3 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "1 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Frontend Developer Intern",
+      "company": "Zomato",
+      "score": 70
+    },
+    "usableMatch": true,
+    "planFocus": [],
+    "planTarget": "Frontend Developer Intern at Zomato"
+  },
+  {
+    "username": "H277353",
+    "name": "Nagu",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 7,
+    "accountAgeDays": 1049,
+    "score": 53,
+    "band": "Growing",
+    "components": {
+      "profile": 13,
+      "activity": 12,
+      "quality": 5,
+      "languages": 23
+    },
+    "topLanguage": "TypeScript",
+    "gaps": [
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "3 repos have no description — add one line explaining what each project does",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Frontend Developer Intern",
+      "company": "Zomato",
+      "score": 70
+    },
+    "usableMatch": true,
+    "planFocus": [],
+    "planTarget": "Frontend Developer Intern at Zomato"
+  },
+  {
+    "username": "Dha3k",
+    "name": "Kadam Dhathri ",
+    "location": "vijayawada,India",
+    "followers": 0,
+    "publicRepos": 1,
+    "accountAgeDays": 1064,
+    "score": 19,
+    "band": "Beginner",
+    "components": {
+      "profile": 13,
+      "activity": 6,
+      "quality": 0,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "1 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "ChiragKumarDev",
+    "name": "Chirag Kumar",
+    "location": "Haryana, India",
+    "followers": 0,
+    "publicRepos": 1,
+    "accountAgeDays": 1054,
+    "score": 30,
+    "band": "Beginner",
+    "components": {
+      "profile": 13,
+      "activity": 6,
+      "quality": 11,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "saalimnawaz",
+    "name": "Saalim Nawaz",
+    "location": "Chennai India",
+    "followers": 0,
+    "publicRepos": 1,
+    "accountAgeDays": 1068,
+    "score": 46,
+    "band": "Growing",
+    "components": {
+      "profile": 13,
+      "activity": 6,
+      "quality": 8,
+      "languages": 19
+    },
+    "topLanguage": "Python",
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 25
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Communication",
+      "Cloud Basics"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "Sarnendu74",
+    "name": "Sarnendu Ghosh",
+    "location": "India, West Bengal",
+    "followers": 0,
+    "publicRepos": 10,
+    "accountAgeDays": 1055,
+    "score": 69,
+    "band": "Growing",
+    "components": {
+      "profile": 17,
+      "activity": 15,
+      "quality": 12,
+      "languages": 25
+    },
+    "topLanguage": "Python",
+    "gaps": [
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "4 repos have no description — add one line explaining what each project does",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Programmer Analyst Trainee",
+      "company": "Cognizant",
+      "score": 70
+    },
+    "usableMatch": true,
+    "planFocus": [
+      "SQL"
+    ],
+    "planTarget": "Programmer Analyst Trainee at Cognizant"
+  },
+  {
+    "username": "mohanapriyaka",
+    "name": "Mohanapriya Kathiresan",
+    "location": "Chennai, India",
+    "followers": 0,
+    "publicRepos": 1,
+    "accountAgeDays": 1061,
+    "score": 19,
+    "band": "Beginner",
+    "components": {
+      "profile": 13,
+      "activity": 6,
+      "quality": 0,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "1 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "Pratik-008",
+    "name": "PRATIK PANDEY",
+    "location": "India ",
+    "followers": 0,
+    "publicRepos": 3,
+    "accountAgeDays": 1066,
+    "score": 23,
+    "band": "Beginner",
+    "components": {
+      "profile": 7,
+      "activity": 8,
+      "quality": 8,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 3 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "Add a bio — one line saying what you build and what job you want"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "bhumiag",
+    "name": "Bhumi Agrawal",
+    "location": "india",
+    "followers": 0,
+    "publicRepos": 2,
+    "accountAgeDays": 1060,
+    "score": 40,
+    "band": "Growing",
+    "components": {
+      "profile": 7,
+      "activity": 6,
+      "quality": 8,
+      "languages": 19
+    },
+    "topLanguage": "JavaScript",
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "Add a bio — one line saying what you build and what job you want"
+    ],
+    "topMatch": {
+      "role": "Frontend Developer (Fresher)",
+      "company": "Lenskart",
+      "score": 63
+    },
+    "usableMatch": true,
+    "planFocus": [
+      "Git",
+      "TypeScript"
+    ],
+    "planTarget": "Frontend Developer (Fresher) at Lenskart"
+  },
+  {
+    "username": "shivam-7-singh",
+    "name": "Shivam Singh",
+    "location": "Mumbai,India",
+    "followers": 0,
+    "publicRepos": 2,
+    "accountAgeDays": 1060,
+    "score": 36,
+    "band": "Beginner",
+    "components": {
+      "profile": 10,
+      "activity": 7,
+      "quality": 0,
+      "languages": 19
+    },
+    "topLanguage": "Python",
+    "gaps": [
+      "Only 2 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "2 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 25
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Communication",
+      "Cloud Basics"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "DIVYAMEGHANACH",
+    "name": "MEGHANA CHALAMALASETTY",
+    "location": "INDIA",
+    "followers": 0,
+    "publicRepos": 2,
+    "accountAgeDays": 1062,
+    "score": 18,
+    "band": "Beginner",
+    "components": {
+      "profile": 7,
+      "activity": 7,
+      "quality": 4,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 2 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "1 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "Deepthi-g-kunder",
+    "name": "Deepthi.G.Kunder",
+    "location": "Bengaluru,Karnataka,India",
+    "followers": 0,
+    "publicRepos": 6,
+    "accountAgeDays": 1062,
+    "score": 39,
+    "band": "Beginner",
+    "components": {
+      "profile": 13,
+      "activity": 11,
+      "quality": 0,
+      "languages": 15
+    },
+    "topLanguage": "Jupyter Notebook",
+    "gaps": [
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "6 repos have no description — add one line explaining what each project does",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "pinkwovi",
+    "name": "Pink Wovi",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 1,
+    "accountAgeDays": 1023,
+    "score": 19,
+    "band": "Beginner",
+    "components": {
+      "profile": 13,
+      "activity": 6,
+      "quality": 0,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "1 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "Shaaz0992",
+    "name": "MOHAMMAD SHAZAN",
+    "location": "INDIA",
+    "followers": 0,
+    "publicRepos": 3,
+    "accountAgeDays": 1020,
+    "score": 15,
+    "band": "Beginner",
+    "components": {
+      "profile": 7,
+      "activity": 8,
+      "quality": 0,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 3 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "3 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "Saivikask",
+    "name": "saivikas koliparthy",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 1,
+    "accountAgeDays": 1018,
+    "score": 30,
+    "band": "Beginner",
+    "components": {
+      "profile": 13,
+      "activity": 6,
+      "quality": 11,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "omeshwarreddykona",
+    "name": "Kona Omeshwar Reddy",
+    "location": "Hyderabad, India",
+    "followers": 0,
+    "publicRepos": 12,
+    "accountAgeDays": 1014,
+    "score": 72,
+    "band": "Job-Ready",
+    "components": {
+      "profile": 22,
+      "activity": 15,
+      "quality": 12,
+      "languages": 23
+    },
+    "topLanguage": "JavaScript",
+    "gaps": [
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "4 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Frontend Developer (Fresher)",
+      "company": "Lenskart",
+      "score": 63
+    },
+    "usableMatch": true,
+    "planFocus": [
+      "Git",
+      "TypeScript"
+    ],
+    "planTarget": "Frontend Developer (Fresher) at Lenskart"
+  },
+  {
+    "username": "mrsudheerraj",
+    "name": "Sudheer Sonkar",
+    "location": "india",
+    "followers": 0,
+    "publicRepos": 1,
+    "accountAgeDays": 1011,
+    "score": 30,
+    "band": "Beginner",
+    "components": {
+      "profile": 13,
+      "activity": 6,
+      "quality": 11,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "Ajit0903",
+    "name": "Ajit Padhi",
+    "location": "Hyderabad, India",
+    "followers": 0,
+    "publicRepos": 10,
+    "accountAgeDays": 1087,
+    "score": 41,
+    "band": "Growing",
+    "components": {
+      "profile": 11,
+      "activity": 15,
+      "quality": 4,
+      "languages": 11
+    },
+    "topLanguage": "Makefile",
+    "gaps": [
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "9 repos have no description — add one line explaining what each project does",
+      "Add a bio — one line saying what you build and what job you want"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "diptaanshu",
+    "name": "Diptaanshu Nandan",
+    "location": "Bengaluru, India",
+    "followers": 0,
+    "publicRepos": 1,
+    "accountAgeDays": 1026,
+    "score": 19,
+    "band": "Beginner",
+    "components": {
+      "profile": 13,
+      "activity": 6,
+      "quality": 0,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "1 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "AbhishekSamal2002",
+    "name": "Abhishek Samal",
+    "location": "INDIA",
+    "followers": 0,
+    "publicRepos": 1,
+    "accountAgeDays": 1026,
+    "score": 38,
+    "band": "Beginner",
+    "components": {
+      "profile": 13,
+      "activity": 6,
+      "quality": 8,
+      "languages": 11
+    },
+    "topLanguage": "HTML",
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Associate Software Engineer Trainee",
+      "company": "Tech Mahindra",
+      "score": 25
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "CSS",
+      "Java",
+      "SQL",
+      "Python"
+    ],
+    "planTarget": "Associate Software Engineer Trainee at Tech Mahindra"
+  },
+  {
+    "username": "adityak-zbs",
+    "name": "Aditya Kotasthane",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 1,
+    "accountAgeDays": 1026,
+    "score": 32,
+    "band": "Beginner",
+    "components": {
+      "profile": 7,
+      "activity": 6,
+      "quality": 0,
+      "languages": 19
+    },
+    "topLanguage": "C",
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "1 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee (Software)",
+      "company": "Ola Electric",
+      "score": 13
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "SQL",
+      "Python",
+      "Java",
+      "Embedded Basics"
+    ],
+    "planTarget": "Graduate Engineer Trainee (Software) at Ola Electric"
+  },
+  {
+    "username": "Personaguru",
+    "name": "Ayanshi",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 2,
+    "accountAgeDays": 1013,
+    "score": 36,
+    "band": "Beginner",
+    "components": {
+      "profile": 22,
+      "activity": 7,
+      "quality": 7,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 2 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "1 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "bongakora",
+    "name": "Bonga kora",
+    "location": "West Bengal, murshidabad, India ",
+    "followers": 0,
+    "publicRepos": 2,
+    "accountAgeDays": 1025,
+    "score": 29,
+    "band": "Beginner",
+    "components": {
+      "profile": 7,
+      "activity": 7,
+      "quality": 15,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 2 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "Add a bio — one line saying what you build and what job you want"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "anilreddy714",
+    "name": "anilreddy714",
+    "location": "Bangalore,india",
+    "followers": 0,
+    "publicRepos": 4,
+    "accountAgeDays": 1021,
+    "score": 22,
+    "band": "Beginner",
+    "components": {
+      "profile": 13,
+      "activity": 9,
+      "quality": 0,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 4 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "4 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "AritraChatterjee-SDE-SWE",
+    "name": "Aritra Chatterjee",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 6,
+    "accountAgeDays": 1021,
+    "score": 42,
+    "band": "Growing",
+    "components": {
+      "profile": 7,
+      "activity": 10,
+      "quality": 6,
+      "languages": 19
+    },
+    "topLanguage": "Ruby",
+    "gaps": [
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "Add a bio — one line saying what you build and what job you want",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Junior Software Engineer",
+      "company": "Freshworks",
+      "score": 25
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "JavaScript",
+      "Java",
+      "SQL",
+      "React"
+    ],
+    "planTarget": "Junior Software Engineer at Freshworks"
+  },
+  {
+    "username": "DarkTechAstra",
+    "name": "Surendra Bharathi",
+    "location": "Chennai, Tamil Nadu, India",
+    "followers": 0,
+    "publicRepos": 5,
+    "accountAgeDays": 1014,
+    "score": 28,
+    "band": "Beginner",
+    "components": {
+      "profile": 7,
+      "activity": 10,
+      "quality": 0,
+      "languages": 11
+    },
+    "topLanguage": "Jupyter Notebook",
+    "gaps": [
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "5 repos have no description — add one line explaining what each project does",
+      "Add a bio — one line saying what you build and what job you want"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "Tousif36",
+    "name": "Tousif Mulla ",
+    "location": "Pune, Maharashtra, India",
+    "followers": 0,
+    "publicRepos": 5,
+    "accountAgeDays": 1014,
+    "score": 48,
+    "band": "Growing",
+    "components": {
+      "profile": 13,
+      "activity": 10,
+      "quality": 6,
+      "languages": 19
+    },
+    "topLanguage": "Java",
+    "gaps": [
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "3 repos have no description — add one line explaining what each project does",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 25
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "SQL",
+      "Python",
+      "Communication",
+      "JavaScript"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "nimmeek",
+    "name": "Nim Meek",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 1,
+    "accountAgeDays": 1025,
+    "score": 19,
+    "band": "Beginner",
+    "components": {
+      "profile": 13,
+      "activity": 6,
+      "quality": 0,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "1 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "parthmakwana28",
+    "name": "Parth Makwana",
+    "location": "india",
+    "followers": 0,
+    "publicRepos": 1,
+    "accountAgeDays": 1020,
+    "score": 24,
+    "band": "Beginner",
+    "components": {
+      "profile": 7,
+      "activity": 6,
+      "quality": 11,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "Add a bio — one line saying what you build and what job you want"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "sramantak9",
+    "name": "Sramantak Mitra",
+    "location": "Kolkata,India",
+    "followers": 0,
+    "publicRepos": 6,
+    "accountAgeDays": 1021,
+    "score": 53,
+    "band": "Growing",
+    "components": {
+      "profile": 13,
+      "activity": 11,
+      "quality": 6,
+      "languages": 23
+    },
+    "topLanguage": "JavaScript",
+    "gaps": [
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "4 repos have no description — add one line explaining what each project does",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Associate Software Engineer Trainee",
+      "company": "Tech Mahindra",
+      "score": 63
+    },
+    "usableMatch": true,
+    "planFocus": [
+      "SQL",
+      "TypeScript"
+    ],
+    "planTarget": "Associate Software Engineer Trainee at Tech Mahindra"
+  },
+  {
+    "username": "beryl-abedraj",
+    "name": "Beryl Abed Raj S",
+    "location": "Chennai, Tamil Nadu, India",
+    "followers": 0,
+    "publicRepos": 3,
+    "accountAgeDays": 1025,
+    "score": 44,
+    "band": "Growing",
+    "components": {
+      "profile": 13,
+      "activity": 8,
+      "quality": 0,
+      "languages": 23
+    },
+    "topLanguage": "Python",
+    "gaps": [
+      "Only 3 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "3 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Programmer Analyst Trainee",
+      "company": "Cognizant",
+      "score": 40
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "CSS",
+      "Communication"
+    ],
+    "planTarget": "Programmer Analyst Trainee at Cognizant"
+  },
+  {
+    "username": "binduanalytics",
+    "name": "Bindu Gowda",
+    "location": "Bangalore, India",
+    "followers": 0,
+    "publicRepos": 2,
+    "accountAgeDays": 1025,
+    "score": 28,
+    "band": "Beginner",
+    "components": {
+      "profile": 13,
+      "activity": 7,
+      "quality": 8,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 2 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "manjunatha26-github",
+    "name": "Manjunatha Gowda C R",
+    "location": "Bengaluru, India",
+    "followers": 0,
+    "publicRepos": 5,
+    "accountAgeDays": 1021,
+    "score": 42,
+    "band": "Growing",
+    "components": {
+      "profile": 13,
+      "activity": 10,
+      "quality": 8,
+      "languages": 11
+    },
+    "topLanguage": "Jupyter Notebook",
+    "gaps": [
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "2 repos have no description — add one line explaining what each project does",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "Rajlaxmi25",
+    "name": "Rajlaxmi Panchawatkar",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 3,
+    "accountAgeDays": 1022,
+    "score": 33,
+    "band": "Beginner",
+    "components": {
+      "profile": 7,
+      "activity": 7,
+      "quality": 8,
+      "languages": 11
+    },
+    "topLanguage": "HTML",
+    "gaps": [
+      "Only 2 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "Add a bio — one line saying what you build and what job you want"
+    ],
+    "topMatch": {
+      "role": "Associate Software Engineer Trainee",
+      "company": "Tech Mahindra",
+      "score": 25
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "CSS",
+      "Java",
+      "SQL",
+      "Python"
+    ],
+    "planTarget": "Associate Software Engineer Trainee at Tech Mahindra"
+  },
+  {
+    "username": "Dadduu2001",
+    "name": "Dadduu",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 4,
+    "accountAgeDays": 1019,
+    "score": 45,
+    "band": "Growing",
+    "components": {
+      "profile": 11,
+      "activity": 9,
+      "quality": 2,
+      "languages": 23
+    },
+    "topLanguage": "Java",
+    "gaps": [
+      "Only 4 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "3 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 50
+    },
+    "usableMatch": true,
+    "planFocus": [
+      "SQL",
+      "Communication",
+      "Cloud Basics",
+      "Cloud"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "mopidiashokkumar",
+    "name": "Mopidi Ashok Kumar",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 2,
+    "accountAgeDays": 1016,
+    "score": 36,
+    "band": "Beginner",
+    "components": {
+      "profile": 18,
+      "activity": 7,
+      "quality": 0,
+      "languages": 11
+    },
+    "topLanguage": "HTML",
+    "gaps": [
+      "Only 2 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "2 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Associate Software Engineer Trainee",
+      "company": "Tech Mahindra",
+      "score": 25
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "CSS",
+      "Java",
+      "SQL",
+      "Python"
+    ],
+    "planTarget": "Associate Software Engineer Trainee at Tech Mahindra"
+  },
+  {
+    "username": "Mishvadeveloper",
+    "name": "Mishva Patel",
+    "location": "Ahmedabad, India",
+    "followers": 0,
+    "publicRepos": 5,
+    "accountAgeDays": 1088,
+    "score": 44,
+    "band": "Growing",
+    "components": {
+      "profile": 13,
+      "activity": 10,
+      "quality": 2,
+      "languages": 19
+    },
+    "topLanguage": "JavaScript",
+    "gaps": [
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "4 repos have no description — add one line explaining what each project does",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Frontend Developer (Fresher)",
+      "company": "Lenskart",
+      "score": 63
+    },
+    "usableMatch": true,
+    "planFocus": [
+      "Git",
+      "TypeScript"
+    ],
+    "planTarget": "Frontend Developer (Fresher) at Lenskart"
+  },
+  {
+    "username": "akarsh0211",
+    "name": "Akarsh",
+    "location": "india",
+    "followers": 0,
+    "publicRepos": 2,
+    "accountAgeDays": 1086,
+    "score": 46,
+    "band": "Growing",
+    "components": {
+      "profile": 13,
+      "activity": 7,
+      "quality": 3,
+      "languages": 23
+    },
+    "topLanguage": "Java",
+    "gaps": [
+      "Only 2 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "2 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Associate Software Engineer Trainee",
+      "company": "Tech Mahindra",
+      "score": 50
+    },
+    "usableMatch": true,
+    "planFocus": [
+      "SQL",
+      "CSS",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Associate Software Engineer Trainee at Tech Mahindra"
+  },
+  {
+    "username": "Sanjaysingh385",
+    "name": "Sanjay Singh",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 1,
+    "accountAgeDays": 1075,
+    "score": 39,
+    "band": "Beginner",
+    "components": {
+      "profile": 25,
+      "activity": 6,
+      "quality": 8,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 1 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "shivananddd",
+    "name": "ShivAnand",
+    "location": "INDIA",
+    "followers": 0,
+    "publicRepos": 3,
+    "accountAgeDays": 1074,
+    "score": 43,
+    "band": "Growing",
+    "components": {
+      "profile": 13,
+      "activity": 8,
+      "quality": 11,
+      "languages": 11
+    },
+    "topLanguage": "Jupyter Notebook",
+    "gaps": [
+      "Only 3 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "adityavb09",
+    "name": "Aditya V B",
+    "location": "Bengaluru, Karnataka, India",
+    "followers": 0,
+    "publicRepos": 4,
+    "accountAgeDays": 1082,
+    "score": 52,
+    "band": "Growing",
+    "components": {
+      "profile": 13,
+      "activity": 9,
+      "quality": 7,
+      "languages": 23
+    },
+    "topLanguage": "CSS",
+    "gaps": [
+      "Only 4 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "2 repos have no description — add one line explaining what each project does"
+    ],
+    "topMatch": {
+      "role": "Programmer Analyst Trainee",
+      "company": "Cognizant",
+      "score": 40
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "HTML",
+      "Communication"
+    ],
+    "planTarget": "Programmer Analyst Trainee at Cognizant"
+  },
+  {
+    "username": "Thirteenbunchdarkbluesoul",
+    "name": "13bunchdarkbluesoul",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 2,
+    "accountAgeDays": 1077,
+    "score": 37,
+    "band": "Beginner",
+    "components": {
+      "profile": 22,
+      "activity": 7,
+      "quality": 8,
+      "languages": 0
+    },
+    "topLanguage": null,
+    "gaps": [
+      "Only 2 public repos — aim for 5+ projects that show your skills",
+      "No recent activity — push a commit or update a repo in the last 90 days"
+    ],
+    "topMatch": {
+      "role": "Graduate Engineer Trainee",
+      "company": "Tata Consultancy Services",
+      "score": 0
+    },
+    "usableMatch": false,
+    "planFocus": [
+      "Java",
+      "SQL",
+      "Python",
+      "Communication"
+    ],
+    "planTarget": "Graduate Engineer Trainee at Tata Consultancy Services"
+  },
+  {
+    "username": "digitalgithub3",
+    "name": "SUDIPTA",
+    "location": "West Bengali, India",
+    "followers": 0,
+    "publicRepos": 5,
+    "accountAgeDays": 1075,
+    "score": 48,
+    "band": "Growing",
+    "components": {
+      "profile": 13,
+      "activity": 10,
+      "quality": 2,
+      "languages": 23
+    },
+    "topLanguage": "JavaScript",
+    "gaps": [
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "4 repos have no description — add one line explaining what each project does",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Frontend Developer (Fresher)",
+      "company": "Lenskart",
+      "score": 63
+    },
+    "usableMatch": true,
+    "planFocus": [
+      "TypeScript",
+      "Git"
+    ],
+    "planTarget": "Frontend Developer (Fresher) at Lenskart"
+  },
+  {
+    "username": "Shivankjadli",
+    "name": "SHIVANK JADLI",
+    "location": "India",
+    "followers": 0,
+    "publicRepos": 5,
+    "accountAgeDays": 1105,
+    "score": 54,
+    "band": "Growing",
+    "components": {
+      "profile": 13,
+      "activity": 10,
+      "quality": 6,
+      "languages": 25
+    },
+    "topLanguage": "JavaScript",
+    "gaps": [
+      "No recent activity — push a commit or update a repo in the last 90 days",
+      "3 repos have no description — add one line explaining what each project does",
+      "Link a portfolio or personal site (RozgarAI can generate one for you)"
+    ],
+    "topMatch": {
+      "role": "Frontend Developer Intern",
+      "company": "Zomato",
+      "score": 70
+    },
+    "usableMatch": true,
+    "planFocus": [
+      "TypeScript",
+      "Java",
+      "SQL"
+    ],
+    "planTarget": "Frontend Developer Intern at Zomato"
+  }
+]
