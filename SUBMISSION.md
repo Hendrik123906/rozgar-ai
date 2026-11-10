@@ -1,8 +1,8 @@
 # Code for a Billion — Submission Draft: RozgarAI
 
-> **DRAFT ONLY — do not submit as-is.** Fill in the `[REPO_URL]`,
-> `[DEPLOY_URL]`, and `[DEMO_VIDEO_URL]` placeholders (see the checklist at
-> the bottom), then paste this into the submission form as a new issue in
+> **DRAFT ONLY — do not submit as-is.** Fill in the `[DEPLOY_URL]`
+> and `[DEMO_VIDEO_URL]` placeholders (repo URL is filled — see the
+> checklist at the bottom), then paste this into the submission form as a new issue in
 > [`karlmehta/code-for-a-billion`](https://github.com/karlmehta/code-for-a-billion).
 > **Deadline: Sunday 15 Nov 2026, before 12:00 WIB.**
 
@@ -117,7 +117,7 @@ What this proves:
   (2 min) is in the repo; upload to YouTube (unlisted) and paste the link
   here.
 - **Live demo:** [DEPLOY_URL]
-- **Public repo:** [REPO_URL]
+- **Public repo:** https://github.com/Hendrik123906/rozgar-ai
 
 ## How it was built
 
@@ -158,8 +158,7 @@ home page 200, `/api/analyze?username=octocat` 200 (score 61/100, Growing),
       morning may have claimed it in time; if the deployment is already
       live under the user's Vercel account, use that URL instead of a
       fresh deploy.)
-- [ ] **Create a public GitHub repo** and push this code
-      (`git push`), then replace `[REPO_URL]` above with the repo URL.
+- [x] **Create a public GitHub repo** and push this code — DONE 10 Nov 2026: https://github.com/Hendrik123906/rozgar-ai
 - [ ] **Upload `demo/rozgarai-demo.mp4` to YouTube (unlisted)** and
       replace `[DEMO_VIDEO_URL]` above with the video link.
 - [ ] **Submit before Sun 15 Nov 2026, 12:00 WIB:** open a new issue in
